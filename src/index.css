@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 56.25%;
+  }
+}
